@@ -248,10 +248,6 @@ html {
     background-color: var(--color-light-grey);
   }
   
-  .visually-hidden{
-    display: none;
-  }
-
   .navbar-menu{
     float: right;
   }
@@ -277,8 +273,12 @@ html {
     padding: 0.5rem 1rem;
   }
 
-  .vav .nav-link{
+  .vav .nav-link:hover{
     color: var(--nav-item-link-hover);
+  }
+
+  .visually-hidden{
+    display: none;
   }
 
   .card-category{
@@ -302,7 +302,7 @@ html {
     padding: var(--section-footer-padding);
     text-align: var(--section-footer-align);
   }
-  
+
   .section-title{
     font-family: var(--font-family-title);
     font-size: var(--font-size-xx-large);
